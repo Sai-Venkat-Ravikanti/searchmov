@@ -1,0 +1,118 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  width: 69%;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  /* background-color: grey; */
+  margin-left: 15%;
+}
+.pad{
+  padding: 15px;
+}
+.search-filed{
+  width: 90%; 
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  text-indent: 20px;
+  font-size: 18px;
+}
+.movie{
+  padding: 5px;
+  
+  margin-top: 30px;
+  display: flex;
+}
+.poster{
+  height: 500px;
+  width: 30%;
+  /* background-color: red; */
+overflow: hidden;
+}
+.details{
+  
+  width: 69%;
+  /* color: white; */
+  /* background-color: forestgreen; */
+}
+.img-poster{
+  width: 100%;
+  height: 520px;
+  margin-top: 30px;
+  
+}
+.pad{
+  margin: 0px;
+}
+.pad>p{
+  font-size: 18px;
+}
+.rating>p{
+  font-size: 18px;
+  margin: 0px;
+}
+.rating{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.padd{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h3{
+  margin: 0px;
+}
+.input-group{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.btn{
+  width: 15%;
+  background-color:rgb(9, 9, 216);
+  color: white;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  margin-left: 3px;
+}
